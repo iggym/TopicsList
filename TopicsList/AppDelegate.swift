@@ -3,7 +3,7 @@
 //  TopicsList
 //
 //  Created by Iggy Mwangi on 4/30/17.
-//  Copyright © 2017 Iggy Mwangi. All rights reserved.
+//  Copyright © 2017 Iggy . All rights reserved.
 //
 
 import UIKit
