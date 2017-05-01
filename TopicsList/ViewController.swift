@@ -25,6 +25,8 @@ class ViewController: UIViewController {
         //register the UITableViewCell class with the table view.
         tableView.register(UITableViewCell.self,
                            forCellReuseIdentifier: "Cell")
+        
+        loadDatafromDatabase()
     }
 
     @IBAction func addTopic(_ sender: UIBarButtonItem) {
