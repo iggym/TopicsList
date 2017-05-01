@@ -142,7 +142,7 @@ extension ViewController {
         // use reference to its persistent container to get NSManagedObjectContext.
         let managedContext =
             appDelegate.persistentContainer.viewContext
-        
+           print (" The name of the persistent container \(appDelegate.persistentContainer.name)")
         // fetches all objects
         let fetchRequest =
             NSFetchRequest<NSManagedObject>(entityName: "Topic")
