@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC2F45671EB6B774005A4523 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F45661EB6B774005A4523 /* File.swift */; };
+		DC2F45671EB6B774005A4523 /* CoreData_foriOS8.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F45661EB6B774005A4523 /* CoreData_foriOS8.swift */; };
 		DC405E4B1EB6A3E2003961A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC405E4A1EB6A3E2003961A5 /* AppDelegate.swift */; };
 		DC405E4D1EB6A3E2003961A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC405E4C1EB6A3E2003961A5 /* ViewController.swift */; };
 		DC405E501EB6A3E2003961A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC405E4E1EB6A3E2003961A5 /* Main.storyboard */; };
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DC2F45661EB6B774005A4523 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		DC2F45661EB6B774005A4523 /* CoreData_foriOS8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreData_foriOS8.swift; sourceTree = "<group>"; };
 		DC405E471EB6A3E2003961A5 /* TopicsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopicsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC405E4A1EB6A3E2003961A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC405E4C1EB6A3E2003961A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 				DC405E561EB6A3E2003961A5 /* LaunchScreen.storyboard */,
 				DC405E591EB6A3E2003961A5 /* Info.plist */,
 				DC405E511EB6A3E2003961A5 /* TopicsList.xcdatamodeld */,
-				DC2F45661EB6B774005A4523 /* File.swift */,
+				DC2F45661EB6B774005A4523 /* CoreData_foriOS8.swift */,
 			);
 			path = TopicsList;
 			sourceTree = "<group>";
@@ -269,7 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC405E4D1EB6A3E2003961A5 /* ViewController.swift in Sources */,
-				DC2F45671EB6B774005A4523 /* File.swift in Sources */,
+				DC2F45671EB6B774005A4523 /* CoreData_foriOS8.swift in Sources */,
 				DC405E531EB6A3E2003961A5 /* TopicsList.xcdatamodeld in Sources */,
 				DC405E4B1EB6A3E2003961A5 /* AppDelegate.swift in Sources */,
 			);
