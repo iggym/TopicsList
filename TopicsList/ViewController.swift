@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func addTopic(_ sender: UIBarButtonItem) {
+        addNewTopic()
     }
 
     override func didReceiveMemoryWarning() {
@@ -55,5 +56,40 @@ extension ViewController: UITableViewDataSource {
             cell.textLabel?.text = topics[indexPath.row]
             return cell
     }
+}
+
+// MARK: - Add a new Topic
+extension ViewController {
+    // Implement the addName IBAction
+     func addNewTopic() {
+        
+        let alert = UIAlertController(title: "New Topic",
+                                      message: "Add a new topic",
+                                      preferredStyle: .alert)
+        
+        let saveAction = UIAlertAction(title: "Save",
+                                       style: .default) {
+                                        [unowned self] action in
+                                        
+                                        guard let textField = alert.textFields?.first,
+                                            let nameToSave = textField.text else {
+                                                return
+                                        }
+                                        
+                                        self.topics.append(nameToSave)
+                                        self.tableView.reloadData()
+        }
+        
+        let cancelAction = UIAlertAction(title: "Cancel",
+                                         style: .default)
+        
+        alert.addTextField()
+        
+        alert.addAction(saveAction)
+        alert.addAction(cancelAction)
+        
+        present(alert, animated: true)
+    }
+    
 }
 
